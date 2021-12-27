@@ -1,0 +1,16 @@
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+	{{ range . }}
+        <div class="p-2 w-96 rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
+            <a href="{{ .RelPermalink }}">
+            <div class="relative">
+                <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" class="rounded-lg shadow-sm w-full h-52 object-cover" />
+            </div>
+            <div class="m-6">
+                <div class="my-2 text-xl font-semibold">{{ .Title }}</div>
+                <div class="mb-4 font-normal opacity-60">{{ .Params.description }}</div>
+            </div>
+            </a>
+        </div>  
+    {{ end }}
+{{ end }}

@@ -66,16 +66,7 @@
     {{ end }}
   </article>
 
-  <div>
-    <div class="utterances utterances-frame overflow-y-scroll h-96"></div>
-    <script src="https://utteranc.es/client.js"
-        repo="wempy-aditya/github-comments-system"
-        issue-term="pathname"
-        theme="github-dark"
-        crossorigin="anonymous"
-        async>
-    </script>
-  </div>
+  {{- partial "comments.html" . -}}
 
   <div class="container mx-auto p-6 mb-8">
     <h1 class="text-xl font-normal my-3 text-center">Recommended for you</h1>

@@ -1,11 +1,11 @@
 ---
 author: Wempy Aditya
 title: About Me
-date: 2021-07-15
-description: This page show about wempy tech 
+date: 2021-12-27
+description: This page show all about Wempy Tech Blog
 keywords: ["about-us", "about-hugo", "contact"]
 type: about
-thumbnail: https://placehold.co/1200x628 
+thumbnail: /about-me.jpeg
 ---
 
 Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.

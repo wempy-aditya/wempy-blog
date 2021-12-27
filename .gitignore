@@ -1,0 +1,9 @@
+/.idea
+/public/
+/resources/_gen/
+/node_modules
+.DS_Store
+.vscode/*
+hugo.exe
+hugo.darwin
+hugo.linux

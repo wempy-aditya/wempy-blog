@@ -1,7 +1,7 @@
 baseURL = 'https://blogs.wempy.xyz/'
 languageCode = 'en-us'
 title = 'Wempy Tech Blog'
-theme = "blistmod"
+theme = "blist"
 
 DefaultContentLanguage = "id"
 DefaultContentLanguageInSubdir = true

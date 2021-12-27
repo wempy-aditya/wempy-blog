@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://blogs.wempy.xyz/'
 languageCode = 'en-us'
 title = 'Wempy Tech Blog'
 theme = "blist"
